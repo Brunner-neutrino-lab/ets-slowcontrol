@@ -32,12 +32,40 @@
         "env": []
     },
     {
-        "id": "04ae20893e554b31",
+        "id": "a1f1df2c7a99d490",
         "type": "tab",
-        "label": "UI Webcam",
+        "label": "PID GPIO Flow",
         "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b4973237.46ab6",
+        "type": "subflow",
+        "name": "Process Simulation",
         "info": "",
-        "env": []
+        "in": [
+            {
+                "x": 37,
+                "y": 103,
+                "wires": [
+                    {
+                        "id": "ec719d4d.0d54f8"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 728.5,
+                "y": 294,
+                "wires": [
+                    {
+                        "id": "ae1a6e5.d4c0d9",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "4fcf85bbb9779d3a",
@@ -82,9 +110,7 @@
             "59683f736c73f288"
         ],
         "x": 24,
-        "y": 1639,
-        "w": 1452,
-        "h": 462
+        "y": 1639
     },
     {
         "id": "1989b2fe0a88c3b5",
@@ -129,9 +155,7 @@
             "c5080d0fb9d07d59"
         ],
         "x": 24,
-        "y": 79,
-        "w": 1452,
-        "h": 522
+        "y": 79
     },
     {
         "id": "1791dc42101b417e",
@@ -176,9 +200,7 @@
             "6f3a184ba760d1fc"
         ],
         "x": 24,
-        "y": 639,
-        "w": 1452,
-        "h": 462
+        "y": 639
     },
     {
         "id": "81e9610b2344dd04",
@@ -223,9 +245,7 @@
             "eddb12b44e54aa30"
         ],
         "x": 24,
-        "y": 1139,
-        "w": 1452,
-        "h": 462
+        "y": 1139
     },
     {
         "id": "06b40d1ab42611f9",
@@ -252,9 +272,7 @@
             "67e147e50befe368"
         ],
         "x": 74,
-        "y": 259,
-        "w": 1492,
-        "h": 142
+        "y": 259
     },
     {
         "id": "70dc752e89018794",
@@ -284,13 +302,10 @@
             "324499dfd3336c2b",
             "3702e408a99a1a12",
             "66b7599620e27cb7",
-            "d2486ef88885d71a",
-            "3c0f51115d355767"
+            "d2486ef88885d71a"
         ],
         "x": 74,
-        "y": 439,
-        "w": 1532,
-        "h": 362
+        "y": 439
     },
     {
         "id": "ede534d51bbe313c",
@@ -370,9 +385,9 @@
             "29892b9eb242b422"
         ],
         "x": 114,
-        "y": 1019,
+        "y": 1133.9999809265137,
         "w": 652,
-        "h": 182
+        "h": 187.00001907348633
     },
     {
         "id": "a6ed3458bb6fe7c1",
@@ -417,9 +432,7 @@
             "a75ba2d24e70bcaf"
         ],
         "x": 94,
-        "y": 39,
-        "w": 302,
-        "h": 142
+        "y": 39
     },
     {
         "id": "0122ebcf667044ff",
@@ -440,9 +453,7 @@
             "b0e979535784725f"
         ],
         "x": 94,
-        "y": 219,
-        "w": 412,
-        "h": 142
+        "y": 219
     },
     {
         "id": "9e27cba0a1c72d28",
@@ -463,9 +474,7 @@
             "8214e2398b5734d9"
         ],
         "x": 94,
-        "y": 419,
-        "w": 452,
-        "h": 142
+        "y": 419
     },
     {
         "id": "f236b3aa98122b5f",
@@ -486,9 +495,7 @@
             "12733cb28a2559c6"
         ],
         "x": 94,
-        "y": 619,
-        "w": 452,
-        "h": 142
+        "y": 619
     },
     {
         "id": "9a8e6120e9d3f387",
@@ -507,20 +514,14 @@
             "0aa0d20eb277d3db",
             "040899dbfc2c5940",
             "87798ecbf358bc7c",
-            "5cc7428f81ae302b",
             "a20d08208df7c8c7",
-            "c81980f3661c0264",
-            "9f2a1f2c0c8a957e",
-            "67c21e5b7b73ca95",
-            "094e4dcc53c335bc",
-            "18b32ef2ee9ba00e",
             "f9061c6cbf31d707",
             "756455c81369c156"
         ],
         "x": 114,
         "y": 719,
-        "w": 1072,
-        "h": 262
+        "w": 872,
+        "h": 162
     },
     {
         "id": "791db7cd13ef7276",
@@ -539,18 +540,10 @@
             "3f84523399efe808",
             "6278e76b82c20b67",
             "808feeed75f23639",
-            "48c63a7e827d4f90",
-            "313f3ef324bbda0a",
-            "2f9387c438de906b",
-            "d53bf2961277c08c",
-            "139077a51fe54c24",
-            "3505fdd8a95dd7f6",
-            "4376b677f5ac340d"
+            "48c63a7e827d4f90"
         ],
         "x": 74,
-        "y": 39,
-        "w": 1452,
-        "h": 182
+        "y": 39
     },
     {
         "id": "18b0815e663164d3",
@@ -573,7 +566,7 @@
             "6f123cfdaa58fd5f"
         ],
         "x": 124,
-        "y": 1239,
+        "y": 1339,
         "w": 562,
         "h": 182
     },
@@ -725,17 +718,6 @@
         "className": ""
     },
     {
-        "id": "b2d40cfa2a020055",
-        "type": "ui_group",
-        "name": "Dark Box In",
-        "tab": "d99d97e004fee415",
-        "order": 3,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "59951fd76c680eae",
         "type": "mongodb",
         "hostname": "172.16.0.205",
@@ -760,69 +742,13 @@
         "rejectUnauthorized": true
     },
     {
-        "id": "57094b63e06db9a5",
-        "type": "ui_group",
-        "name": "Sensor DAQ",
-        "tab": "d99d97e004fee415",
-        "order": 5,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "405117961ba87182",
-        "type": "ui_group",
-        "d": true,
-        "name": "Dark Box Out",
-        "tab": "d99d97e004fee415",
-        "order": 4,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "676648969881c30a",
-        "type": "ui_group",
-        "name": "Data Buffer",
-        "tab": "d99d97e004fee415",
-        "order": 6,
-        "disp": true,
-        "width": "12",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "8229bff6fca7cff0",
-        "type": "ui_group",
-        "name": "Motor",
-        "tab": "d99d97e004fee415",
-        "order": 7,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "ab3c663ba053a7f7",
-        "type": "ui_group",
-        "name": "Autovalve",
-        "tab": "d99d97e004fee415",
-        "order": 8,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "8b82dc2997a71777",
         "type": "ui_group",
         "name": "Autovalve",
         "tab": "d99d97e004fee415",
         "order": 9,
         "disp": true,
-        "width": "6",
+        "width": 6,
         "collapse": false,
         "className": ""
     },
@@ -838,15 +764,147 @@
         "className": ""
     },
     {
-        "id": "9da256adc4542195",
+        "id": "c45a83a3.d00908",
         "type": "ui_group",
-        "name": "Lamp",
-        "tab": "d99d97e004fee415",
-        "order": 10,
+        "name": "PID",
+        "tab": "",
+        "order": 1,
         "disp": true,
-        "width": "6",
+        "width": "6"
+    },
+    {
+        "id": "dashboard_group",
+        "type": "ui_group",
+        "name": "PID Dashboard",
+        "tab": "d99d97e004fee415",
+        "order": 1,
+        "disp": true,
+        "width": 10,
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "7fe4b5c3.32e58c",
+        "type": "function",
+        "z": "b4973237.46ab6",
+        "name": "30 sec RC + 20",
+        "func": "// Applies a simple RC low pass filter to incoming payload values\nvar tc = 30*1000;       // time constant in milliseconds\n\nvar lastValue = context.get('lastValue');\nif (typeof lastValue == \"undefined\") lastValue = msg.payload;\nvar lastTime = context.get('lastTime') || null;\nvar now = new Date();\nvar currentValue = msg.payload;\nif (lastTime === null) {\n    // first time through\n    newValue = currentValue;\n} else {\n    var dt = now - lastTime;\n    var newValue;\n    \n    if (dt > 0) {\n        var dtotc = dt / tc;\n        newValue = lastValue * (1 - dtotc) + currentValue * dtotc;\n    } else {\n        // no time has elapsed leave output the same as last time\n        newValue = lastValue;\n    }\n}\ncontext.set('lastValue', newValue);\ncontext.set('lastTime', now);\n\nmsg.payload = newValue + 20;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 626.5,
+        "y": 207,
+        "wires": [
+            [
+                "ae1a6e5.d4c0d9"
+            ]
+        ]
+    },
+    {
+        "id": "1bacd004.9753c",
+        "type": "inject",
+        "z": "b4973237.46ab6",
+        "name": "Inject -0.2 at start",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "topic": "",
+        "payload": "-0.2",
+        "payloadType": "num",
+        "x": 134.5,
+        "y": 30,
+        "wires": [
+            [
+                "ec719d4d.0d54f8"
+            ]
+        ]
+    },
+    {
+        "id": "999a52c2.f465f",
+        "type": "function",
+        "z": "b4973237.46ab6",
+        "name": "10 sec RC",
+        "func": "// Applies a simple RC low pass filter to incoming payload values\nvar tc = 10*1000;       // time constant in milliseconds\n\nvar lastValue = context.get('lastValue');\nif (typeof lastValue == \"undefined\") lastValue = msg.payload;\nvar lastTime = context.get('lastTime') || null;\nvar now = new Date();\nvar currentValue = msg.payload;\nif (lastTime === null) {\n    // first time through\n    newValue = currentValue;\n} else {\n    var dt = now - lastTime;\n    var newValue;\n    \n    if (dt > 0) {\n        var dtotc = dt / tc;\n        newValue = lastValue * (1 - dtotc) + currentValue * dtotc;\n    } else {\n        // no time has elapsed leave output the same as last time\n        newValue = lastValue;\n    }\n}\ncontext.set('lastValue', newValue);\ncontext.set('lastTime', now);\n\nmsg.payload = newValue;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 451,
+        "y": 207,
+        "wires": [
+            [
+                "7fe4b5c3.32e58c"
+            ]
+        ]
+    },
+    {
+        "id": "ec719d4d.0d54f8",
+        "type": "delay",
+        "z": "b4973237.46ab6",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 268,
+        "y": 104,
+        "wires": [
+            [
+                "ede39236.1961f8"
+            ]
+        ]
+    },
+    {
+        "id": "a823c9cf.2a6178",
+        "type": "function",
+        "z": "b4973237.46ab6",
+        "name": "2 msg transport delay",
+        "func": "// stores messages in a fifo until the specified number have been received, \n// then releases them as new messages are received.\n// during the filling phase the earliest message is passed on each time \n// a message is received, but it is also left in the fifo\nvar fifoMaxLength = 2;\nvar fifo = context.get('fifo') || [];\n// push the new message onto the top of the array, messages are shifted down and\n// drop off the front\nvar length = fifo.push(msg);  // returns new length\nif (length > fifoMaxLength) {\n    newMsg = fifo.shift();\n} else {\n    // not full yet, make a copy of the msg and pass it on\n    var newMsg = JSON.parse(JSON.stringify(fifo[0]));\n}\ncontext.set('fifo', fifo);\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 258,
+        "y": 208,
+        "wires": [
+            [
+                "999a52c2.f465f"
+            ]
+        ]
+    },
+    {
+        "id": "ae1a6e5.d4c0d9",
+        "type": "function",
+        "z": "b4973237.46ab6",
+        "name": "Clear all except payload",
+        "func": "msg2 = {payload: msg.payload};\nreturn msg2;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 545,
+        "y": 293,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ede39236.1961f8",
+        "type": "range",
+        "z": "b4973237.46ab6",
+        "minin": "0",
+        "maxin": "1",
+        "minout": "0",
+        "maxout": "100",
+        "action": "scale",
+        "round": false,
+        "name": "",
+        "x": 87,
+        "y": 208,
+        "wires": [
+            [
+                "a823c9cf.2a6178"
+            ]
+        ]
     },
     {
         "id": "03608d69fd05a669",
@@ -892,7 +950,8 @@
             "e2c8a89d54378df0",
             "bca5b358b5a25cd7",
             "71813ed9c4e71ae2",
-            "4bc85591cac5b42d"
+            "4bc85591cac5b42d",
+            "6ad3f3a8d45a218c"
         ],
         "x": 355,
         "y": 140,
@@ -1064,8 +1123,8 @@
         "name": "Stream",
         "label": "ReadLJ",
         "tooltip": "",
-        "group": "676648969881c30a",
-        "order": 0,
+        "group": "8b82dc2997a71777",
+        "order": 1,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -1289,8 +1348,8 @@
         "name": "Buffer",
         "label": "Buffer",
         "tooltip": "",
-        "group": "676648969881c30a",
-        "order": 0,
+        "group": "8b82dc2997a71777",
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -2245,7 +2304,7 @@
         "label": "Autovalve",
         "tooltip": "",
         "group": "8b82dc2997a71777",
-        "order": 1,
+        "order": 3,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -2835,7 +2894,7 @@
         "name": "Humidswitch",
         "label": "Humidity control",
         "tooltip": "",
-        "group": "b2d40cfa2a020055",
+        "group": "",
         "order": 1,
         "width": 0,
         "height": 0,
@@ -3478,8 +3537,7 @@
         "y": 140,
         "wires": [
             [
-                "808feeed75f23639",
-                "313f3ef324bbda0a"
+                "808feeed75f23639"
             ]
         ]
     },
@@ -3491,9 +3549,10 @@
         "name": "Serial COM (Out)",
         "mode": "link",
         "links": [
-            "347a31098b867e46"
+            "347a31098b867e46",
+            "152bf2f95340d357"
         ],
-        "x": 735,
+        "x": 495,
         "y": 140,
         "wires": []
     },
@@ -3826,7 +3885,7 @@
         "g": "70dc752e89018794",
         "name": "",
         "group": "a343bc75c06cd2ed",
-        "order": 3,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "wave",
@@ -3855,7 +3914,7 @@
         "g": "70dc752e89018794",
         "name": "",
         "group": "8b82dc2997a71777",
-        "order": 2,
+        "order": 4,
         "width": 0,
         "height": 0,
         "gtype": "wave",
@@ -3940,9 +3999,9 @@
         "g": "06b40d1ab42611f9",
         "name": "",
         "group": "a03eb4f3d26c477a",
-        "order": 4,
-        "width": 0,
-        "height": 0,
+        "order": 1,
+        "width": 6,
+        "height": 5,
         "label": "Internal pressure",
         "chartType": "line",
         "legend": "false",
@@ -4007,122 +4066,6 @@
         ]
     },
     {
-        "id": "313f3ef324bbda0a",
-        "type": "change",
-        "z": "f694214ce746579e",
-        "g": "791db7cd13ef7276",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload[\"Humidity 2\"]",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "Hvalue",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 680,
-        "y": 180,
-        "wires": [
-            [
-                "d53bf2961277c08c"
-            ]
-        ]
-    },
-    {
-        "id": "2f9387c438de906b",
-        "type": "function",
-        "z": "f694214ce746579e",
-        "g": "791db7cd13ef7276",
-        "name": "function 3",
-        "func": "var msg1 = {};\nvar msg2 = {};\n\nmsg1.payload = msg.payload[\"humidity\"];\nmsg1.topic = 'val';\n\nmsg2.payload = msg.payload[\"humidity_setpoint\"];\nmsg2.topic = 'setp';\n\nreturn [msg1, msg2];",
-        "outputs": 2,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1200,
-        "y": 180,
-        "wires": [
-            [
-                "4376b677f5ac340d"
-            ],
-            [
-                "4376b677f5ac340d"
-            ]
-        ]
-    },
-    {
-        "id": "d53bf2961277c08c",
-        "type": "function",
-        "z": "f694214ce746579e",
-        "g": "791db7cd13ef7276",
-        "name": "Send Relay State",
-        "func": "var stp = context.global.stp;\nvar val = msg.payload;\nvar hloop = context.global.hloop;\n\nmsg.payload = {\n    \"humidity\": val,\n    \"humidity_setpoint\": stp,\n    \"humidity_control\":hloop\n}\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 990,
-        "y": 180,
-        "wires": [
-            [
-                "2f9387c438de906b",
-                "139077a51fe54c24"
-            ]
-        ]
-    },
-    {
-        "id": "139077a51fe54c24",
-        "type": "function",
-        "z": "f694214ce746579e",
-        "g": "791db7cd13ef7276",
-        "name": "function 4",
-        "func": "if (msg.payload[\"humidity_control\"] === 1) {\n    if (msg.payload[\"humidity\"] > msg.payload[\"humidity_setpoint\"]) {\n        msg.payload = \"true\"\n    }\n    else if (msg.payload[\"humidity\"] < msg.payload[\"humidity_setpoint\"]) {\n        msg.payload = \"false\"\n    }\n\n    return msg;\n}\n\nelse if (msg.payload[\"humidity_control\"] === 0) {\n    return null;\n}\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1200,
-        "y": 120,
-        "wires": [
-            [
-                "3505fdd8a95dd7f6"
-            ]
-        ]
-    },
-    {
-        "id": "3505fdd8a95dd7f6",
-        "type": "link out",
-        "z": "f694214ce746579e",
-        "g": "791db7cd13ef7276",
-        "name": "Humidity Control Out",
-        "mode": "link",
-        "links": [
-            "f9061c6cbf31d707"
-        ],
-        "x": 1375,
-        "y": 120,
-        "wires": []
-    },
-    {
         "id": "3702e408a99a1a12",
         "type": "function",
         "z": "f694214ce746579e",
@@ -4167,27 +4110,13 @@
         "x": 820,
         "y": 640,
         "wires": [
-            [
-                "3c0f51115d355767"
-            ],
-            [
-                "3c0f51115d355767"
-            ],
-            [
-                "3c0f51115d355767"
-            ],
-            [
-                "3c0f51115d355767"
-            ],
-            [
-                "3c0f51115d355767"
-            ],
-            [
-                "3c0f51115d355767"
-            ],
-            [
-                "3c0f51115d355767"
-            ]
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
         ]
     },
     {
@@ -4198,7 +4127,7 @@
         "g": "70dc752e89018794",
         "name": "",
         "group": "8b82dc2997a71777",
-        "order": 4,
+        "order": 5,
         "width": 0,
         "height": 0,
         "label": "Cryostat power",
@@ -4232,97 +4161,6 @@
         "className": "",
         "x": 1100,
         "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3c0f51115d355767",
-        "type": "ui_chart",
-        "z": "f694214ce746579e",
-        "d": true,
-        "g": "70dc752e89018794",
-        "name": "",
-        "group": "676648969881c30a",
-        "order": 5,
-        "width": "0",
-        "height": "0",
-        "label": "Fill",
-        "chartType": "line",
-        "legend": "true",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#0011ff",
-            "#2b00ff",
-            "#6600ff",
-            "#8c00ff",
-            "#ae00ff",
-            "#ee00ff",
-            "#ff0000",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 1070,
-        "y": 640,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4376b677f5ac340d",
-        "type": "ui_chart",
-        "z": "f694214ce746579e",
-        "g": "791db7cd13ef7276",
-        "name": "",
-        "group": "b2d40cfa2a020055",
-        "order": 4,
-        "width": "6",
-        "height": "6",
-        "label": "Humidity (%)",
-        "chartType": "line",
-        "legend": "true",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#e1ff00",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 1430,
-        "y": 180,
         "wires": [
             []
         ]
@@ -4373,7 +4211,7 @@
         "out": "out",
         "bcm": true,
         "x": 580,
-        "y": 1080,
+        "y": 1200,
         "wires": []
     },
     {
@@ -4388,8 +4226,8 @@
         "freq": "",
         "out": "out",
         "bcm": true,
-        "x": 980,
-        "y": 780,
+        "x": 860,
+        "y": 820,
         "wires": []
     },
     {
@@ -4399,9 +4237,9 @@
         "g": "67d076e6db5bd203",
         "name": "Pressure relay open",
         "group": "a03eb4f3d26c477a",
-        "order": 4,
-        "width": "3",
-        "height": "2",
+        "order": 2,
+        "width": 3,
+        "height": 2,
         "passthru": false,
         "label": "Enable",
         "tooltip": "",
@@ -4429,9 +4267,9 @@
         "g": "67d076e6db5bd203",
         "name": "Pressure relay closed",
         "group": "a03eb4f3d26c477a",
-        "order": 5,
-        "width": "3",
-        "height": "2",
+        "order": 3,
+        "width": 3,
+        "height": 2,
         "passthru": false,
         "label": "Disable",
         "tooltip": "",
@@ -4459,9 +4297,9 @@
         "g": "ede534d51bbe313c",
         "name": "Close Liquid Nitrogen Valve",
         "group": "a343bc75c06cd2ed",
-        "order": 4,
-        "width": "3",
-        "height": "2",
+        "order": 2,
+        "width": 3,
+        "height": 2,
         "passthru": true,
         "label": "Close Valve",
         "tooltip": "",
@@ -4489,9 +4327,9 @@
         "g": "ede534d51bbe313c",
         "name": "Open Liquid Nitrogen Valve",
         "group": "a343bc75c06cd2ed",
-        "order": 5,
-        "width": "3",
-        "height": "2",
+        "order": 3,
+        "width": 3,
+        "height": 2,
         "passthru": true,
         "label": "Open Valve",
         "tooltip": "",
@@ -4520,10 +4358,10 @@
         "d": true,
         "g": "2baeb8719f1ed4b7",
         "name": "Dry nitrogen (Bottle) open",
-        "group": "405117961ba87182",
+        "group": "",
         "order": 1,
-        "width": "3",
-        "height": "2",
+        "width": 3,
+        "height": 2,
         "passthru": false,
         "label": "Open Valve",
         "tooltip": "",
@@ -4536,7 +4374,7 @@
         "topic": "DNB",
         "topicType": "msg",
         "x": 260,
-        "y": 1140,
+        "y": 1260,
         "wires": [
             [
                 "66ee4fadd1c2d786",
@@ -4551,10 +4389,10 @@
         "d": true,
         "g": "2baeb8719f1ed4b7",
         "name": "Dry nitrogen (Bottle) closed",
-        "group": "405117961ba87182",
+        "group": "",
         "order": 2,
-        "width": "3",
-        "height": "2",
+        "width": 3,
+        "height": 2,
         "passthru": false,
         "label": "Close Valve",
         "tooltip": "",
@@ -4567,7 +4405,7 @@
         "topic": "DNB",
         "topicType": "msg",
         "x": 260,
-        "y": 1100,
+        "y": 1220,
         "wires": [
             [
                 "66ee4fadd1c2d786",
@@ -4581,10 +4419,10 @@
         "z": "622b7c2ad32f0fe6",
         "g": "9a8e6120e9d3f387",
         "name": "Dry nitrogen (Dewar) open",
-        "group": "b2d40cfa2a020055",
-        "order": 5,
-        "width": "3",
-        "height": "2",
+        "group": "dashboard_group",
+        "order": 11,
+        "width": 5,
+        "height": 2,
         "passthru": true,
         "label": "Open Valve",
         "tooltip": "",
@@ -4600,8 +4438,7 @@
         "y": 840,
         "wires": [
             [
-                "0aa0d20eb277d3db",
-                "5cc7428f81ae302b"
+                "0aa0d20eb277d3db"
             ]
         ]
     },
@@ -4611,10 +4448,10 @@
         "z": "622b7c2ad32f0fe6",
         "g": "9a8e6120e9d3f387",
         "name": "Dry nitrogen (Dewar) closed",
-        "group": "b2d40cfa2a020055",
-        "order": 6,
-        "width": "3",
-        "height": "2",
+        "group": "dashboard_group",
+        "order": 12,
+        "width": 5,
+        "height": 2,
         "passthru": true,
         "label": "Close Valve",
         "tooltip": "",
@@ -4630,29 +4467,7 @@
         "y": 800,
         "wires": [
             [
-                "0aa0d20eb277d3db",
-                "5cc7428f81ae302b"
-            ]
-        ]
-    },
-    {
-        "id": "5cc7428f81ae302b",
-        "type": "function",
-        "z": "622b7c2ad32f0fe6",
-        "g": "9a8e6120e9d3f387",
-        "name": "Read Dry Nitrogen Valve (Dewar)",
-        "func": "// Retrieve the variable from the global context\nvar dnv = context.global.dnv;\n\n// Function to handle incoming messages\nfunction processMessage(msg){\n\n    if (typeof msg.payload === 'number' && Number.isInteger(msg.payload)) {\n        // Check if the message payload is a timestamp (assumed to be an integer)\n        // If it is a timestamp, output the current value of x\n        msg.payload = dnv;\n        return msg;\n    }\n\n    // Check if the message payload is a boolean\n    else if (typeof msg.payload === 'boolean') {\n        // Convert boolean to number\n        context.global.dnv = +msg.payload;\n        return null;\n    }\n\n    // If the message is not a boolean message or timestamp, do nothing\n    return null;\n}\n\n// Process incoming messages\nmsg = processMessage(msg);\n\n// Return the modified message or null if no modification is needed\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n// Store the variable in the global context for reuse\ncontext.global.dnv = 0;",
-        "finalize": "",
-        "libs": [],
-        "x": 1020,
-        "y": 860,
-        "wires": [
-            [
-                "38df4fa8a7277cfc"
+                "0aa0d20eb277d3db"
             ]
         ]
     },
@@ -4671,7 +4486,7 @@
         "finalize": "",
         "libs": [],
         "x": 610,
-        "y": 1160,
+        "y": 1280,
         "wires": [
             []
         ]
@@ -4745,7 +4560,7 @@
         "name": "Dry Nitrogen Solenoid Valve (Bottle)",
         "info": "",
         "x": 280,
-        "y": 1060,
+        "y": 1174.9999809265137,
         "wires": []
     },
     {
@@ -4985,156 +4800,14 @@
         ]
     },
     {
-        "id": "c81980f3661c0264",
-        "type": "function",
-        "z": "622b7c2ad32f0fe6",
-        "g": "9a8e6120e9d3f387",
-        "name": "Read Humidity Setpoint",
-        "func": "// Retrieve the variable from the global context\nvar stp = context.global.stp;\n\n// Function to handle incoming messages\nfunction processMessage(msg){\n\n    if (typeof msg.payload[\"Humidity Setpoint\"] === 'number') {\n        // Check if the message payload is a number\n        // If it is a number, store the value as a global variable\n        context.global.stp = msg.payload[\"Humidity Setpoint\"];\n        return null;\n    }\n\n    // If the message is not a number, do nothing\n    return null;\n}\n\n// Process incoming messages\nmsg = processMessage(msg);\n\n// Return the modified message or null if no modification is needed\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n// Store the variable in the global context for reuse\ncontext.global.stp = 0;",
-        "finalize": "",
-        "libs": [],
-        "x": 990,
-        "y": 900,
-        "wires": [
-            [
-                "38df4fa8a7277cfc"
-            ]
-        ]
-    },
-    {
-        "id": "9f2a1f2c0c8a957e",
-        "type": "ui_switch",
-        "z": "622b7c2ad32f0fe6",
-        "g": "9a8e6120e9d3f387",
-        "name": "",
-        "label": "Humidity Control",
-        "tooltip": "",
-        "group": "b2d40cfa2a020055",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 680,
-        "y": 940,
-        "wires": [
-            [
-                "67c21e5b7b73ca95",
-                "38df4fa8a7277cfc"
-            ]
-        ]
-    },
-    {
-        "id": "67c21e5b7b73ca95",
-        "type": "function",
-        "z": "622b7c2ad32f0fe6",
-        "g": "9a8e6120e9d3f387",
-        "name": "Read Humidity Control",
-        "func": "// Retrieve the variable from the global context\nvar hloop = context.global.hloop;\n\n// Function to handle incoming messages\nfunction processMessage(msg){\n\n    // Check if the message payload is a boolean\n    if (typeof msg.payload === 'boolean') {\n        if (msg.payload === true) {\n            // Set the global variable to True\n            context.global.hloop = 1;\n            msg.payload = \"true detected\";\n        }\n        else if (msg.payload === false) {\n            // Set the global variable to False\n            context.global.hloop = 0;\n            msg.payload = \"false detected\";\n\n        }        \n        return msg;\n    }\n}\n\n// Process incoming messages\nmsg = processMessage(msg);\n\n// Return the modified message or null if no modification is needed\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n// Store the variable in the global context for reuse\ncontext.global.hloop = 0;",
-        "finalize": "",
-        "libs": [],
-        "x": 980,
-        "y": 940,
-        "wires": [
-            [
-                "38df4fa8a7277cfc"
-            ]
-        ]
-    },
-    {
-        "id": "094e4dcc53c335bc",
-        "type": "ui_form",
-        "z": "622b7c2ad32f0fe6",
-        "g": "9a8e6120e9d3f387",
-        "name": "",
-        "label": "Humidity Setpoint",
-        "group": "b2d40cfa2a020055",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "options": [
-            {
-                "label": "",
-                "value": "Value",
-                "type": "number",
-                "required": true,
-                "rows": null
-            }
-        ],
-        "formValue": {
-            "Value": ""
-        },
-        "payload": "",
-        "submit": "submit",
-        "cancel": "cancel",
-        "topic": "topic",
-        "topicType": "msg",
-        "splitLayout": "",
-        "className": "",
-        "x": 670,
-        "y": 900,
-        "wires": [
-            [
-                "c81980f3661c0264",
-                "38df4fa8a7277cfc"
-            ]
-        ]
-    },
-    {
-        "id": "18b32ef2ee9ba00e",
-        "type": "inject",
-        "z": "622b7c2ad32f0fe6",
-        "g": "9a8e6120e9d3f387",
-        "name": "Startup",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "false",
-        "payloadType": "bool",
-        "x": 460,
-        "y": 940,
-        "wires": [
-            [
-                "9f2a1f2c0c8a957e"
-            ]
-        ]
-    },
-    {
         "id": "f9061c6cbf31d707",
         "type": "link in",
         "z": "622b7c2ad32f0fe6",
         "g": "9a8e6120e9d3f387",
         "name": "Humidity Control In",
         "links": [
-            "3505fdd8a95dd7f6"
+            "3505fdd8a95dd7f6",
+            "3dcfadde59da7c99"
         ],
         "x": 245,
         "y": 820,
@@ -5154,14 +4827,10 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "eq",
-                "v": "false",
-                "vt": "str"
+                "t": "true"
             },
             {
-                "t": "eq",
-                "v": "true",
-                "vt": "str"
+                "t": "false"
             }
         ],
         "checkall": "true",
@@ -5179,22 +4848,6 @@
         ]
     },
     {
-        "id": "38df4fa8a7277cfc",
-        "type": "debug",
-        "z": "622b7c2ad32f0fe6",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1300,
-        "y": 1020,
-        "wires": []
-    },
-    {
         "id": "eedb26e85f624cf8",
         "type": "rpi-gpio out",
         "z": "622b7c2ad32f0fe6",
@@ -5207,7 +4860,7 @@
         "out": "out",
         "bcm": true,
         "x": 490,
-        "y": 1300,
+        "y": 1400,
         "wires": []
     },
     {
@@ -5216,10 +4869,10 @@
         "z": "622b7c2ad32f0fe6",
         "g": "18b0815e663164d3",
         "name": "Lamp relay open",
-        "group": "9da256adc4542195",
-        "order": 4,
-        "width": "3",
-        "height": "2",
+        "group": "",
+        "order": 1,
+        "width": 3,
+        "height": 2,
         "passthru": false,
         "label": "Disable",
         "tooltip": "",
@@ -5232,7 +4885,7 @@
         "topic": "LMP",
         "topicType": "msg",
         "x": 240,
-        "y": 1360,
+        "y": 1460,
         "wires": [
             [
                 "eedb26e85f624cf8",
@@ -5246,10 +4899,10 @@
         "z": "622b7c2ad32f0fe6",
         "g": "18b0815e663164d3",
         "name": "Lamp relay closed",
-        "group": "9da256adc4542195",
-        "order": 5,
-        "width": "3",
-        "height": "2",
+        "group": "",
+        "order": 2,
+        "width": 3,
+        "height": 2,
         "passthru": false,
         "label": "Enable",
         "tooltip": "",
@@ -5262,7 +4915,7 @@
         "topic": "LMP",
         "topicType": "msg",
         "x": 240,
-        "y": 1320,
+        "y": 1420,
         "wires": [
             [
                 "eedb26e85f624cf8",
@@ -5284,7 +4937,7 @@
         "finalize": "",
         "libs": [],
         "x": 550,
-        "y": 1380,
+        "y": 1480,
         "wires": [
             []
         ]
@@ -5297,28 +4950,703 @@
         "name": "Lamp Relay",
         "info": "",
         "x": 220,
-        "y": 1280,
+        "y": 1380,
         "wires": []
     },
     {
-        "id": "edc6ee3a4ed21568",
-        "type": "ui_webcam",
-        "z": "04ae20893e554b31",
+        "id": "a30460912d3d25c4",
+        "type": "ui_text",
+        "z": "a1f1df2c7a99d490",
+        "group": "dashboard_group",
+        "order": 4,
+        "width": 1,
+        "height": 1,
+        "name": "Setpoint",
+        "label": "setp",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 260,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "duty_cycle",
+        "type": "function",
+        "z": "a1f1df2c7a99d490",
+        "name": "Calculate Duty Cycle",
+        "func": "// Ensure msg.payload is a valid number\nif (typeof msg.payload !== 'number' || msg.payload < 0 || msg.payload > 1) {\n    node.error(\"Invalid msg.payload. Expected a number between 0 and 1.\", msg);\n    return null; // Stop execution if invalid\n}\n\n// Set cycleDuration as a global variable if it hasn't been set already\nif (typeof global.get('cycleDuration') === 'undefined') {\n    global.set('cycleDuration', 600); // Default value (e.g., 10 minutes)\n}\n\n// Retrieve cycleDuration from global storage\nconst cycleDuration = global.get('cycleDuration');\n\n// PID output defines ON time in seconds\nconst onTime = cycleDuration * (1 - msg.payload);\nconst offTime = cycleDuration - onTime;\n\n// Store on/off times in the message\nmsg.payload = onTime;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 380,
+        "wires": [
+            [
+                "5f859263ef43fada"
+            ]
+        ]
+    },
+    {
+        "id": "6b03a01bc75b8cb1",
+        "type": "ui_switch",
+        "z": "a1f1df2c7a99d490",
         "name": "",
-        "group": "d610a95de95404b1",
-        "order": 0,
-        "width": "10",
-        "height": "7",
-        "countdown": false,
-        "autoStart": false,
-        "hideCaptureButton": false,
-        "showImage": "2",
-        "mirror": true,
-        "format": "png",
-        "x": 320,
-        "y": 180,
+        "label": "PID",
+        "tooltip": "",
+        "group": "dashboard_group",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "enable",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 270,
+        "y": 480,
+        "wires": [
+            [
+                "a81171ce523944a5"
+            ]
+        ]
+    },
+    {
+        "id": "152bf2f95340d357",
+        "type": "link in",
+        "z": "a1f1df2c7a99d490",
+        "name": "link in 6",
+        "links": [
+            "808feeed75f23639"
+        ],
+        "x": 305,
+        "y": 160,
+        "wires": [
+            [
+                "8df12b3467c88c8a"
+            ]
+        ]
+    },
+    {
+        "id": "8df12b3467c88c8a",
+        "type": "function",
+        "z": "a1f1df2c7a99d490",
+        "name": "Parse",
+        "func": "msg.payload = parseFloat(msg.payload[\"Humidity 2\"]);\nmsg.topic = \"Humidity\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 200,
+        "wires": [
+            [
+                "b9afda5b392a4b76",
+                "b05a6af6084a2795"
+            ]
+        ]
+    },
+    {
+        "id": "5821a007a88a77fc",
+        "type": "ui_text",
+        "z": "a1f1df2c7a99d490",
+        "group": "dashboard_group",
+        "order": 10,
+        "width": 1,
+        "height": 1,
+        "name": "Kd",
+        "label": "Kd",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 270,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "b6a454cbd97f6450",
+        "type": "ui_text",
+        "z": "a1f1df2c7a99d490",
+        "group": "dashboard_group",
+        "order": 8,
+        "width": 1,
+        "height": 1,
+        "name": "Ki",
+        "label": "Ki",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 270,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c281f7451c3d1deb",
+        "type": "ui_text",
+        "z": "a1f1df2c7a99d490",
+        "group": "dashboard_group",
+        "order": 6,
+        "width": 1,
+        "height": 1,
+        "name": "Kp",
+        "label": "Kp",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 270,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a077e44925e0acc9",
+        "type": "ui_text_input",
+        "z": "a1f1df2c7a99d490",
+        "name": "Ki input",
+        "label": "Ki",
+        "tooltip": "",
+        "group": "dashboard_group",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "t_integral",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 260,
+        "y": 360,
+        "wires": [
+            [
+                "b6a454cbd97f6450",
+                "a81171ce523944a5"
+            ]
+        ]
+    },
+    {
+        "id": "5b543df21ef642ab",
+        "type": "ui_text_input",
+        "z": "a1f1df2c7a99d490",
+        "name": "Kd input",
+        "label": "Kd",
+        "tooltip": "",
+        "group": "dashboard_group",
+        "order": 9,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "t_derivative",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 260,
+        "y": 440,
+        "wires": [
+            [
+                "5821a007a88a77fc",
+                "a81171ce523944a5"
+            ]
+        ]
+    },
+    {
+        "id": "24abea377c7f61a2",
+        "type": "ui_text_input",
+        "z": "a1f1df2c7a99d490",
+        "name": "Kp input",
+        "label": "Kp",
+        "tooltip": "",
+        "group": "dashboard_group",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "prop_band",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 260,
+        "y": 280,
+        "wires": [
+            [
+                "c281f7451c3d1deb",
+                "a81171ce523944a5"
+            ]
+        ]
+    },
+    {
+        "id": "ac5d044d3f349fbf",
+        "type": "ui_text_input",
+        "z": "a1f1df2c7a99d490",
+        "name": "Setpoint",
+        "label": "setp",
+        "tooltip": "",
+        "group": "dashboard_group",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "setpoint",
+        "sendOnBlur": false,
+        "className": "",
+        "topicType": "str",
+        "x": 260,
+        "y": 120,
+        "wires": [
+            [
+                "a30460912d3d25c4",
+                "3db58714170ab515",
+                "a81171ce523944a5",
+                "bcd7c0961ef806cc"
+            ]
+        ]
+    },
+    {
+        "id": "3db58714170ab515",
+        "type": "function",
+        "z": "a1f1df2c7a99d490",
+        "name": "Send setpoint",
+        "func": "// Resend input message every second, ensuring topic is used for the chart legend\n\nlet interval = context.get('interval');\n\n// If there's already an interval running, clear it\nif (interval) {\n    clearInterval(interval);\n}\n\n// Save the original message (including topic) to context\nconst originalMsg = { ...msg };\n\n// Set up a new interval to resend the message every second\ninterval = setInterval(() => {\n    // Send the message with payload and topic\n    node.send({\n        payload: originalMsg.payload,  // Use the original payload\n        topic: \"Setpoint\"       // Use the original topic\n    });\n}, 1000);\n\n// Store the interval ID in context\ncontext.set('interval', interval);\n\n// Clear the interval when the flow is stopped\nnode.on('close', () => {\n    if (interval) {\n        clearInterval(interval);\n    }\n});\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 80,
+        "wires": [
+            [
+                "b9afda5b392a4b76"
+            ]
+        ]
+    },
+    {
+        "id": "b9afda5b392a4b76",
+        "type": "ui_chart",
+        "z": "a1f1df2c7a99d490",
+        "name": "Dark Box Humidity",
+        "group": "dashboard_group",
+        "order": 1,
+        "width": 7,
+        "height": 5,
+        "label": "Dark Box Humidity",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "Waiting for data...",
+        "dot": false,
+        "ymin": "5",
+        "ymax": "30",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#ff7f0e",
+            "#2ca02c",
+            "#d62728",
+            "#9467bd",
+            "#000000",
+            "#000000",
+            "#000000",
+            "#000000"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 790,
+        "y": 200,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "3dcfadde59da7c99",
+        "type": "link out",
+        "z": "a1f1df2c7a99d490",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "f9061c6cbf31d707"
+        ],
+        "x": 1035,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "5f859263ef43fada",
+        "type": "function",
+        "z": "a1f1df2c7a99d490",
+        "name": "Send Relay Command",
+        "func": "// Ensure msg.payload is a valid number\nif (typeof msg.payload !== 'number' || msg.payload < 0) {\n    node.error(\"Invalid msg.payload. Expected a positive number.\", msg);\n    return null; // Stop execution if invalid\n}\n\n// Retrieve the global cycleDuration\nconst cycleDuration = global.get('cycleDuration');\n\n// Handle the case where msg.payload equals cycleDuration\nif (msg.payload === cycleDuration) {\n    // Only send \"true\" output and skip \"false\" output\n    const msgTrue = { payload: true, topic: msg.topic };\n    node.send([msgTrue]);\n    return null; // Stop execution here, no need to send \"false\"\n}\n\n// Handle the case where msg.payload is 0\nif (msg.payload === 0) {\n    // Skip the \"true\" output and send the \"false\" output immediately\n    const msgFalse = { payload: false, topic: msg.topic };\n    node.send([msgFalse]);\n    return null; // Stop execution here\n}\n\n// Store the input payload for the delay duration\nconst delayDuration = msg.payload * 1000; // Convert seconds to milliseconds\n\n// Send the \"true\" output immediately\nconst msgTrue = { payload: true, topic: msg.topic };\nnode.send([msgTrue]);\n\n// Set a timeout to send the \"false\" output after the delay\nsetTimeout(() => {\n    const msgFalse = { payload: false, topic: msg.topic };\n    node.send([msgFalse]);\n}, delayDuration);\n\n// Do not return anything, as `node.send` handles the output\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 440,
+        "wires": [
+            [
+                "30c7720b42c31447"
+            ]
+        ]
+    },
+    {
+        "id": "30c7720b42c31447",
+        "type": "tobool",
+        "z": "a1f1df2c7a99d490",
+        "name": "",
+        "property": "payload",
+        "showState": false,
+        "filter": false,
+        "x": 770,
+        "y": 500,
+        "wires": [
+            [
+                "bc38e206dda05155"
+            ]
+        ]
+    },
+    {
+        "id": "b05a6af6084a2795",
+        "type": "delay",
+        "z": "a1f1df2c7a99d490",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "600",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 240,
+        "wires": [
+            [
+                "a81171ce523944a5",
+                "bcd7c0961ef806cc"
+            ]
+        ]
+    },
+    {
+        "id": "a81171ce523944a5",
+        "type": "function",
+        "z": "a1f1df2c7a99d490",
+        "name": "PID",
+        "func": "// Retrieve PID parameters and state from flow context\nlet enabled = flow.get(\"enabled\") || false;        // Boolean to enable/disable PID\nlet setpoint = flow.get(\"setpoint\") || 0;          // Setpoint (target value)\nlet propBand = flow.get(\"prop_band\") || 1.0;       // Proportional band\nlet tIntegral = flow.get(\"t_integral\") || 100;     // Integral time (in seconds)\nlet tDerivative = flow.get(\"t_derivative\") || 25;  // Derivative time (in seconds)\nlet prevError = context.get(\"prevError\") || 0;     // Previous error\nlet integral = context.get(\"integral\") || 0;       // Accumulated error\nlet dt = 1;                                        // Sampling interval (1 second)\n\n// Process incoming messages\nswitch (msg.topic) {\n    case \"enable\":\n        if (typeof msg.payload === \"boolean\") {\n            enabled = msg.payload;\n            flow.set(\"enabled\", enabled);\n            node.status({ fill: \"green\", shape: \"dot\", text: `Enabled: ${enabled}` });\n        } else {\n            node.error(\"Invalid payload for 'enable'. Expected a boolean.\", msg);\n        }\n        return null;\n\n    case \"setpoint\":\n        if (typeof msg.payload === \"number\") {\n            setpoint = msg.payload;\n            flow.set(\"setpoint\", setpoint);\n            node.status({ fill: \"blue\", shape: \"ring\", text: `Setpoint: ${setpoint}` });\n        } else {\n            node.error(\"Invalid payload for 'setpoint'. Expected a float.\", msg);\n        }\n        return null;\n\n    case \"prop_band\":\n        if (typeof msg.payload === \"number\") {\n            propBand = msg.payload;\n            flow.set(\"prop_band\", propBand);\n            node.status({ fill: \"blue\", shape: \"ring\", text: `Prop Band: ${propBand}` });\n        } else {\n            node.error(\"Invalid payload for 'prop_band'. Expected a float.\", msg);\n        }\n        return null;\n\n    case \"t_integral\":\n        if (typeof msg.payload === \"number\") {\n            tIntegral = msg.payload;\n            flow.set(\"t_integral\", tIntegral);\n            node.status({ fill: \"blue\", shape: \"ring\", text: `T Integral: ${tIntegral}` });\n        } else {\n            node.error(\"Invalid payload for 't_integral'. Expected a float.\", msg);\n        }\n        return null;\n\n    case \"t_derivative\":\n        if (typeof msg.payload === \"number\") {\n            tDerivative = msg.payload;\n            flow.set(\"t_derivative\", tDerivative);\n            node.status({ fill: \"blue\", shape: \"ring\", text: `T Derivative: ${tDerivative}` });\n        } else {\n            node.error(\"Invalid payload for 't_derivative'. Expected a float.\", msg);\n        }\n        return null;\n\n    case \"Humidity\":\n        if (typeof msg.payload === \"number\") {\n            if (!enabled) {\n                node.status({ fill: \"red\", shape: \"ring\", text: \"PID disabled\" });\n                return null; // PID is disabled, do nothing\n            }\n\n            // Calculate PID\n            const processValue = msg.payload;\n            const error = setpoint - processValue;\n\n            // Proportional term\n            const proportional = error / propBand;\n\n            // Integral term\n            integral += (error * dt) / tIntegral;\n\n            // Derivative term\n            const derivative = tDerivative > 0 ? (error - prevError) / tDerivative : 0;\n\n            // Combine PID terms\n            let output = proportional + integral + derivative;\n\n            // Clamp output to range [0, 1]\n            output = Math.max(0, Math.min(1, output));\n\n            // Update state\n            prevError = error;\n            context.set(\"prevError\", prevError);\n            context.set(\"integral\", integral);\n\n            // Send output message\n            msg.payload = output;\n            node.status({ fill: \"green\", shape: \"dot\", text: `Output: ${output.toFixed(2)}` });\n            return msg;\n\n        } else {\n            node.error(\"Invalid payload for 'Humidity'. Expected a float.\", msg);\n        }\n        return null;\n\n    default:\n        node.error(`Unhandled topic: ${msg.topic}`, msg);\n        return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 320,
+        "wires": [
+            [
+                "duty_cycle"
+            ]
+        ]
+    },
+    {
+        "id": "820e1b78cab8af81",
+        "type": "inject",
+        "z": "a1f1df2c7a99d490",
+        "name": "Setpoint",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "setpoint",
+        "payload": "7.2",
+        "payloadType": "num",
+        "x": 100,
+        "y": 120,
+        "wires": [
+            [
+                "ac5d044d3f349fbf"
+            ]
+        ]
+    },
+    {
+        "id": "906353197628e01f",
+        "type": "inject",
+        "z": "a1f1df2c7a99d490",
+        "name": "Kp",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "prop_band",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 90,
+        "y": 280,
+        "wires": [
+            [
+                "24abea377c7f61a2"
+            ]
+        ]
+    },
+    {
+        "id": "7961c7c218c6c4ce",
+        "type": "inject",
+        "z": "a1f1df2c7a99d490",
+        "name": "Sim",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Humidity",
+        "payload": "25",
+        "payloadType": "num",
+        "x": 270,
+        "y": 540,
+        "wires": [
+            [
+                "a81171ce523944a5"
+            ]
+        ]
+    },
+    {
+        "id": "1462a7821a25120a",
+        "type": "inject",
+        "z": "a1f1df2c7a99d490",
+        "name": "Ki",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "t_integral",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 90,
+        "y": 360,
+        "wires": [
+            [
+                "a077e44925e0acc9"
+            ]
+        ]
+    },
+    {
+        "id": "922b548293ba322b",
+        "type": "inject",
+        "z": "a1f1df2c7a99d490",
+        "name": "Kd",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "t_derivative",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 90,
+        "y": 440,
+        "wires": [
+            [
+                "5b543df21ef642ab"
+            ]
+        ]
+    },
+    {
+        "id": "cf75eabf1bff1b33",
+        "type": "inject",
+        "z": "a1f1df2c7a99d490",
+        "name": "Disable",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "enable",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 100,
+        "y": 480,
+        "wires": [
+            [
+                "6b03a01bc75b8cb1"
+            ]
+        ]
+    },
+    {
+        "id": "48909ab422509051",
+        "type": "inject",
+        "z": "a1f1df2c7a99d490",
+        "name": "Enable",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "enable",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 90,
+        "y": 520,
+        "wires": [
+            [
+                "6b03a01bc75b8cb1"
+            ]
+        ]
+    },
+    {
+        "id": "f240e1bdfa39be66",
+        "type": "debug",
+        "z": "a1f1df2c7a99d490",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "bc38e206dda05155",
+        "type": "not",
+        "z": "a1f1df2c7a99d490",
+        "name": "",
+        "property": "payload",
+        "showState": false,
+        "filter": false,
+        "x": 910,
+        "y": 500,
+        "wires": [
+            [
+                "f240e1bdfa39be66",
+                "3dcfadde59da7c99"
+            ]
+        ]
+    },
+    {
+        "id": "bcd7c0961ef806cc",
+        "type": "debug",
+        "z": "a1f1df2c7a99d490",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 260,
+        "wires": []
     }
 ]
